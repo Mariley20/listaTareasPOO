@@ -1,12 +1,31 @@
-/* Style the close button */
-.close {
-  position: absolute;
-  right: 0;
-  top: 0;
-  padding: 12px 16px 12px 16px;
+
+body {
+  color: #484848;
+  font-family: 'Lato', sans-serif;
+  padding: .45em 2.65em 3em;
+  line-height: 1.5;
 }
 
-.close:hover {
-  background-color: #f44336;
+li {
+  padding: .15em;
+}
+input,
+button {
+  font-size: .85em;
+  padding: .65em 1em;
+  border-radius: .3em;
+  outline: 0;
+}
+input {
+  border: 1px solid #dcdcdc;
+  margin-right: 1em;
+}
+
+/* Buttons */
+button {
   color: white;
+  background: #508abc;
+  border: solid 1px;
+  border-color: rgba(0, 0, 0, .1);
+  cursor: pointer;
 }
